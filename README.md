@@ -1,0 +1,2 @@
+# Multiple Mutable References in Rust
+This example demonstrates a common error in Rust: attempting to create multiple mutable references to the same data.  Rust's borrow checker prevents this to ensure data integrity and thread safety. The solution involves refactoring to avoid multiple mutable borrows.
